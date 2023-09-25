@@ -80,7 +80,7 @@ nav {
     padding-top: 2rem;    
 }
 
-.hero-container {
+.big-container {
     /* debug */
     border: 1px solid black;
     min-height: 150px;
@@ -227,10 +227,7 @@ main {
 }
 
 /* 5th section */
-.sign-up {
-    width: 100%;
-    display: flex;
+.sign-up {   
     align-items: center;
     justify-content: space-between;
-
 }
