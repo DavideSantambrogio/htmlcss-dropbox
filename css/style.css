@@ -41,6 +41,10 @@ img {
     display: flex;
 }
 
+.background-lightblue {
+    background-color: var(--background-lightblue);
+}
+
 /* header */
 
 /* nav */
@@ -72,7 +76,7 @@ nav {
     border: 1px solid black;
     min-height: 200px;
     /* debug */
-    background-color: var(--background-lightblue);
+    
     padding-top: 2rem;    
 }
 
@@ -220,4 +224,13 @@ main {
 
 .clear {
     background-color: var(--clear);
+}
+
+/* 5th section */
+.sign-up {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
