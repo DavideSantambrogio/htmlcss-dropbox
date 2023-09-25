@@ -18,6 +18,15 @@ img {
 
 /* common */
 
+.container {
+    /* debug */
+    border: 1px solid black;
+    min-height: 150px;
+    /* debug */
+    width: 70%;
+    margin: 0 auto;
+}
+
 /* header */
 
 /* nav */
@@ -81,5 +90,40 @@ nav {
 .hero-img {
     width: 60%;    
 }
+
+/* main */
+main {
+    padding-top: 3rem;
+}
+
+.checkbox {
+     /* debug */
+     border: 1px solid black;
+     min-height: 1rem;
+     /* debug */
+}
+
+.sub-row {  
+    display: flex;    
+}
+
+.col {
+    /* debug */
+    background-color: lightblue;
+    min-height: 100px;
+    /* debug */
+    width: calc(100%/3);
+    border: 1px solid var(--border);
+}
+
+.big-col {
+    /* debug */
+    background-color: lightblue;
+    min-height: 100px;
+    /* debug */
+    width: 100%;
+    border: 1px solid var(--border);
+}
+
 
 
