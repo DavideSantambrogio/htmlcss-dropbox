@@ -107,15 +107,21 @@ main {
      /* debug */
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;   
+}
 
 .col {
     /* debug */
     background-color: lightblue;
     min-height: 100px;
     /* debug */
-    width: calc(100%/3);
-    border: 1px solid var(--border);
+    width: calc(100%/3 - 1rem);
+    border: 1px solid var(--border);    
 }
+
 
 .big-col {
     /* debug */
