@@ -27,6 +27,10 @@ img {
     margin: 0 auto;
 }
 
+.flexbox{
+    display: flex;
+}
+
 /* header */
 
 /* nav */
@@ -71,8 +75,7 @@ nav {
     margin: 0 auto;
 }
 
-.hero-content {
-    display: flex;
+.hero-content {   
     /* debug */
     border: 1px solid black;
     /* debug */
@@ -96,6 +99,7 @@ main {
     padding-top: 3rem;
 }
 
+/* 1stsection */
 .checkbox {
      /* debug */
      border: 1px solid black;
@@ -103,9 +107,6 @@ main {
      /* debug */
 }
 
-.sub-row {  
-    display: flex;    
-}
 
 .col {
     /* debug */
@@ -124,6 +125,18 @@ main {
     width: 100%;
     border: 1px solid var(--border);
 }
+
+
+/* 2st section */
+.partner-img {
+    width: 60%;
+}
+
+.partner-txt {
+    width: 40%;
+}
+
+
 
 
 
