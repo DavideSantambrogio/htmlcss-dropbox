@@ -18,10 +18,9 @@ img {
 
 /* common */
 
-
-
 /* header */
 
+/* nav */
 nav {
     /* debug */
     border: 1px solid black;
@@ -43,4 +42,44 @@ nav {
     border: 1px solid black;
     /* debug */
 }
+
+/* hero */
+.hero {
+    /* debug */
+    border: 1px solid black;
+    min-height: 200px;
+    /* debug */
+    background-color: var(--background-lightblue);
+    padding-top: 2rem;    
+}
+
+.hero-container {
+    /* debug */
+    border: 1px solid black;
+    min-height: 150px;
+    /* debug */
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero-content {
+    display: flex;
+    /* debug */
+    border: 1px solid black;
+    /* debug */
+}
+
+.free-trial {
+    /* debug */
+    border: 1px solid black;
+    min-height: 200px;
+    /* debug */
+    width: 40%;
+    
+}
+
+.hero-img {
+    width: 60%;    
+}
+
 
