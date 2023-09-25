@@ -9,4 +9,38 @@ img {
     max-width: 100%;
 }
 
+:root {
+    --background-lightblue: #B4D0E7;
+    --button: #0061FF;
+    --border: #EDEDEE;
+    --designit: #F5F5F5;
+}
+
 /* common */
+
+
+
+/* header */
+
+nav {
+    /* debug */
+    border: 1px solid black;
+    background-color: aqua;
+    /* debug */
+    padding: 1rem .5rem 1rem 0.5rem; 
+    display: flex;   
+    justify-content: space-between;
+}
+
+.nav-left {
+    /* debug */
+    border: 1px solid black;
+    /* debug */
+}
+
+.nav-right {
+    /* debug */
+    border: 1px solid black;
+    /* debug */
+}
+
