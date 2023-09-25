@@ -45,6 +45,15 @@ img {
     background-color: var(--background-lightblue);
 }
 
+li{
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 /* header */
 
 /* nav */
@@ -230,4 +239,28 @@ main {
 .sign-up {   
     align-items: center;
     justify-content: space-between;
+}
+
+/* footer */
+footer {
+    background-color: black;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.footer-col {
+    /* debug */
+    border: 1px solid white;
+    /* /debug */
+    width: calc(100%/5);
+    color: white;
+}
+
+.lenguage {
+    color: white;
+    border-top: 1px solid white;
 }
