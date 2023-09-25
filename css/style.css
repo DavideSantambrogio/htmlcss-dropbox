@@ -13,7 +13,17 @@ img {
     --background-lightblue: #B4D0E7;
     --button: #0061FF;
     --border: #EDEDEE;
-    --designit: #F5F5F5;
+    --monitor: #F5F5F5;
+    --designit: #A2D39B;
+    --asu: #61082B;
+    --uf: #0093CE;
+    --topps: #FF1C1C;
+    --bicycle: #D5001F;
+    --hearts: #B4D0E7;
+    --lonely: #0D2481;
+    --clear: #FFD830;
+
+
 }
 
 /* common */
@@ -99,7 +109,7 @@ main {
     padding-top: 3rem;
 }
 
-/* 1stsection */
+/* 1th section */
 .checkbox {
      /* debug */
      border: 1px solid black;
@@ -133,7 +143,7 @@ main {
 }
 
 
-/* 2st section */
+/* 2th section */
 .partner-img {
     width: 60%;
 }
@@ -142,7 +152,72 @@ main {
     width: 40%;
 }
 
+/* 4th section */
 
+.company-row {
+    display: flex;
+    flex-wrap: wrap;      
+}
 
+.company-col {
+    /* debug */
+    background-color: lightblue;
+    min-height: 100px;
+    /* debug */
+    width: calc(100%/3);
+    border: 1px solid var(--border);    
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.monitor {
+    /* debug */
+    background-color: var(--monitor);
+    min-height: 100px;
+    /* debug */
+    width: calc(100%/3);    
+    display: flex;
+}
 
+.company {    
+    min-height: 100px;
+    border: 1px solid black;
+    width: calc(100%/2);
+    flex-wrap: wrap;    
+}
+
+.designit {
+    background-color: var(--designit);
+}
+
+.asu {
+    background-color: var(--asu);
+}
+
+.uf {
+    background-color: var(--uf);
+}
+
+.topps {
+    background-color: var(--topps);
+}
+
+.monitor {
+    background-color: var(--monitor);
+}
+
+.bicycle {
+    background-color: var(--bicycle);
+}
+
+.hearts {
+    background-color: var(--hearts);
+}
+
+.lonely {
+    background-color: var(--lonely);
+}
+
+.clear {
+    background-color: var(--clear);
+}
