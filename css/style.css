@@ -72,6 +72,7 @@ a {
     color: white;
     padding: 1rem 1rem;
     width: fit-content;
+    height: fit-content;
 }
 
 .button-small {
@@ -79,6 +80,7 @@ a {
     color: white;
     padding: 0.5rem 1rem;
     width: fit-content;
+    
 }
 
 .mb {
@@ -212,8 +214,8 @@ nav {
 
 .col {
     /* debug */
-    background-color: lightblue;
-    min-height: 100px;
+    /* background-color: lightblue;
+    min-height: 100px; */
     /* debug */
     width: calc(100%/3 - 1rem);
     border: 1px solid var(--border); 
@@ -225,7 +227,15 @@ nav {
     height: 1rem;
     line-height: 1rem;
     gap: 5px;
-    padding-bottom: 4rem;
+    padding: 1.5rem;    
+    border: 1px solid var(--border);
+    align-items: center;
+
+}
+
+.plan {
+    padding-top: 3rem;
+
 }
 
 .time {
@@ -258,11 +268,17 @@ nav {
 
 .big-col {
     /* debug */
-    background-color: lightblue;
-    min-height: 100px;
+    /* background-color: lightblue;
+    min-height: 100px; */
     /* debug */
     width: 100%;
     border: 1px solid var(--border);
+    margin-top: 4rem;
+}
+
+.big-col-top {
+    justify-content: space-between;
+    padding: 4rem 0;
 }
 
 
