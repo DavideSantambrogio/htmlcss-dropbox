@@ -79,8 +79,16 @@ a {
     background-color: var(--button);
     color: white;
     padding: 0.5rem 1rem;
+    width: fit-content;    
+}
+
+.button-white {
+    border: 1px solid var(--border);
+    color: black;
+    padding: 1rem 1rem;
     width: fit-content;
-    
+    height: fit-content;
+
 }
 
 .mb {
@@ -279,6 +287,12 @@ nav {
 .big-col-top {
     justify-content: space-between;
     padding: 4rem 0;
+}
+
+/* 2th section */
+
+.partner-txt {
+    padding: 3rem;
 }
 
 
