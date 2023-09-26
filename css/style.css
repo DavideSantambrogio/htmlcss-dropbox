@@ -69,6 +69,7 @@ a {
 
 .button {
     background-color: var(--button);
+    border: 1px solid var(--button);
     color: white;
     padding: 1rem 1rem;
     width: fit-content;
@@ -84,6 +85,7 @@ a {
 
 .button-white {
     border: 1px solid var(--border);
+    background-color: var(--border);
     color: black;
     padding: 1rem 1rem;
     width: fit-content;
@@ -323,16 +325,28 @@ nav {
     display: flex;
 }
 
-.company {    
+.company { 
+    display: flex;   
     min-height: 100px;
     border: 1px solid black;
     width: calc(100%/2);
     flex-wrap: wrap;
     aspect-ratio: 1;    
+    justify-content: center;
+    align-items: center;
+    
+    
 }
 
+.company img {
+    filter: invert(1);
+    width: 50%;    
+}
+
+
+
 .designit {
-    background-color: var(--designit);
+    background-color: var(--designit);       
 }
 
 .asu {
