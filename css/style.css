@@ -30,8 +30,8 @@ img {
 
 .container {
     /* debug */
-    border: 1px solid black;
-    min-height: 150px;
+    /* border: 1px solid black;
+    min-height: 150px; */
     /* debug */
     width: 70%;
     margin: 0 auto;
@@ -237,7 +237,7 @@ nav {
     height: 1rem;
     line-height: 1rem;
     gap: 5px;
-    padding: 1.5rem;    
+    padding: 1.5rem 0;    
     border: 1px solid var(--border);
     align-items: center;
 
@@ -288,7 +288,11 @@ nav {
 
 .big-col-top {
     justify-content: space-between;
-    padding: 4rem 0;
+    padding: 4rem 1rem 4rem 1rem;
+}
+
+.big-col-bottom {
+    padding: 1rem;
 }
 
 /* 2th section */
@@ -326,10 +330,12 @@ nav {
 }
 
 .company { 
-    display: flex;   
-    min-height: 100px;
-    border: 1px solid black;
+    /* debug */
+    /* min-height: 100px;
+    border: 1px solid black; */
+    /* debug */
     width: calc(100%/2);
+    display: flex;
     flex-wrap: wrap;
     aspect-ratio: 1;    
     justify-content: center;
@@ -387,6 +393,13 @@ nav {
     justify-content: space-between;
 }
 
+/* 6th section */
+
+.faq {
+    padding: 2rem 0;
+}
+
+
 /* footer */
 footer {
     background-color: black;
@@ -395,18 +408,25 @@ footer {
 .footer-row {
     display: flex;
     flex-wrap: wrap;
+    padding: 5rem 0;
     
 }
 
 .footer-col {
     /* debug */
-    border: 1px solid white;
+    /* border: 1px solid white; */
     /* /debug */
     width: calc(100%/5);
     color: white;
 }
 
 .lenguage {
-    color: white;
+    color: white;    
+    display: flex;
+    gap: 0.5rem;
     border-top: 1px solid white;
+    padding: 2rem 0;
+    width: calc(100%/5);
 }
+
+    
