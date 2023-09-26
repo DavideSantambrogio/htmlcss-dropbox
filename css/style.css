@@ -35,6 +35,9 @@ img {
     /* debug */
     width: 70%;
     margin: 0 auto;
+    max-width: 1100px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .flexbox{
@@ -54,31 +57,44 @@ a {
     text-decoration: none;
 }
 
+.button {
+    background-color: var(--button);
+    color: white;
+    padding: 0 0.5rem;
+}
+
 /* header */
 
 /* nav */
 nav {
-    /* debug */
-    border: 1px solid black;
-    background-color: aqua;
-    /* debug */
-    padding: 1rem .5rem 1rem .5rem; 
+    background-color: white;
     display: flex;   
     justify-content: space-between;
     position: fixed;
     width: 100%;
+    height: 4rem;
+    padding-top: 1.2rem;
 }
 
 .nav-left {
-    /* debug */
-    border: 1px solid black;
-    /* debug */
+    display: flex;
+    gap: 1rem;
+    
 }
 
-.nav-right {
-    /* debug */
-    border: 1px solid black;
-    /* debug */
+.nav-left img {
+    height: 1.5rem;
+}
+
+.nav-left ul {
+    display: flex;
+    gap: 1rem;
+    height: 100%;
+}
+
+.nav-right ul{
+    display: flex;
+    gap: 1rem;
 }
 
 /* hero */
@@ -87,8 +103,7 @@ nav {
     border: 1px solid black;
     min-height: 200px;
     /* debug */
-    
-    padding-top: 2rem;    
+    padding-top: 8rem;      
 }
 
 .big-container {
@@ -98,6 +113,7 @@ nav {
     /* debug */
     width: 80%;
     margin: 0 auto;
+    max-width: 1100px;
 }
 
 .hero-content {   
@@ -106,7 +122,7 @@ nav {
     /* debug */
 }
 
-.free-trial {
+.box-30 {
     /* debug */
     border: 1px solid black;
     min-height: 200px;
@@ -115,14 +131,12 @@ nav {
     
 }
 
-.hero-img {
+.box-60 {
     width: 60%;    
 }
 
 /* main */
-main {
-    padding-top: 3rem;
-}
+
 
 /* 1th section */
 .checkbox {
@@ -157,15 +171,6 @@ main {
     border: 1px solid var(--border);
 }
 
-
-/* 2th section */
-.partner-img {
-    width: 60%;
-}
-
-.partner-txt {
-    width: 40%;
-}
 
 /* 4th section */
 
