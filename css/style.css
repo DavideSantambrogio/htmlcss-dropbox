@@ -201,20 +201,12 @@ nav {
     height: 1.2rem;
     border: 2px solid gray;
     border-radius: 50%;
+    margin-right: 3px;
 }
 
 .select {
     height: 1rem;
     line-height: 1rem;
-}
-
-.check-on {
-    width: 1.2rem;
-    height: 1.2rem;
-    border: 4px solid var(--button);
-    border-radius: 50%;
-    
-
 }
 
 .row {
@@ -273,8 +265,9 @@ nav {
     text-decoration: underline;
 }
 
-.characteristics {
-    padding-top: 5rem;
+.col hr {
+    width: calc(100%/4);
+    margin: 2rem 0 4rem;
 }
 
 .big-col {
