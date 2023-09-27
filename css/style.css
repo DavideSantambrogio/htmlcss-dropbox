@@ -427,8 +427,21 @@ nav {
 
 /* 7th section */
 
-.faq {
+.question-box h2{
     padding: 2rem 0;
+}
+
+.faq {
+    padding: 1.5rem 0;
+}
+
+.answ {
+    display: none;
+    margin-top: 1rem;
+}
+
+.question { 
+    justify-content: space-between;
 }
 
 
@@ -488,5 +501,11 @@ footer {
     text-decoration: underline;
 }
 
+.faq:hover .answ {
+    display: block;
+}
 
+.faq:hover .fa-chevron-down {
+    transform: rotate(180deg);
+}
     
