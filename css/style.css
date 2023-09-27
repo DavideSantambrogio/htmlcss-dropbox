@@ -135,9 +135,10 @@ nav {
     height: 100%;
 }
 
-.nav-right ul{
+.nav-right ul {
     display: flex;
     gap: 1rem;
+    height: 100%;
 }
 
 /* hero */
@@ -389,8 +390,14 @@ nav {
 
 /* 5th section */
 .sign-up {   
-    align-items: center;
     justify-content: space-between;
+    padding: 5rem 0 ;
+}    
+
+.sign-up h3 { 
+    font-size: 3rem;
+    width: 50%;
+
 }
 
 /* 6th section */
@@ -428,5 +435,33 @@ footer {
     padding: 2rem 0;
     width: calc(100%/5);
 }
+
+/* effects */
+
+.hover-border:hover {
+    border-bottom: 1px solid blue;    
+}
+
+.button:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+.button-white:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+    border: 1px solid var(--border);
+}
+
+.button-small:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+.link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 
     
