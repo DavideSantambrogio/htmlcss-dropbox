@@ -302,32 +302,60 @@ nav {
     padding: 3rem;
 }
 
-
 /* 4th section */
 
-.company-row {
+.client {
+    padding: 6rem 0;
+    
+}
+
+.client h2 {
+    font-size: 2.5rem;
+    width: 60%;
+}
+
+
+.client a {
+    color: #0061FF;
+    text-decoration: underline;
+}
+
+/* 5th section */
+
+.company-row{
     display: flex;
-    flex-wrap: wrap;      
+    flex-wrap: wrap;
+    background-color: var(--border);         
+}
+
+.monitor {
+    /* debug */
+    /* background-color: var(--monitor);
+    min-height: 100px; */
+    /* debug */
+    width: calc(100%/3);    
+    display: flex;
+    padding: 2rem; 
+    align-items: flex-start;
+    flex-direction: column;
+    aspect-ratio: 1/1;  
+    overflow-y: auto; 
+     
+}
+
+.monitor hr {
+    width: 20%;
 }
 
 .company-col {
     /* debug */
-    background-color: lightblue;
-    min-height: 100px;
+    /* background-color: lightblue;
+    min-height: 100px; */
     /* debug */
     width: calc(100%/3);
     border: 1px solid var(--border);    
     display: flex;
     flex-wrap: wrap;
-}
-
-.monitor {
-    /* debug */
-    background-color: var(--monitor);
-    min-height: 100px;
-    /* debug */
-    width: calc(100%/3);    
-    display: flex;
 }
 
 .company { 
@@ -338,7 +366,7 @@ nav {
     width: calc(100%/2);
     display: flex;
     flex-wrap: wrap;
-    aspect-ratio: 1;    
+    aspect-ratio: 1/1;    
     justify-content: center;
     align-items: center;
     
@@ -353,7 +381,8 @@ nav {
 
 
 .designit {
-    background-color: var(--designit);       
+    background-color: var(--designit);
+    border: 1em solid #D1E9CD;       
 }
 
 .asu {
@@ -366,10 +395,6 @@ nav {
 
 .topps {
     background-color: var(--topps);
-}
-
-.monitor {
-    background-color: var(--monitor);
 }
 
 .bicycle {
@@ -388,7 +413,7 @@ nav {
     background-color: var(--clear);
 }
 
-/* 5th section */
+/* 6th section */
 .sign-up {   
     justify-content: space-between;
     padding: 5rem 0 ;
@@ -400,7 +425,7 @@ nav {
 
 }
 
-/* 6th section */
+/* 7th section */
 
 .faq {
     padding: 2rem 0;
